@@ -1,5 +1,7 @@
-# ece465-cloud-computing
-ECE465 Cloud Computing Homework Assignments
+# Parallel and Distributed Graph Coloring
+using Gebremedhin-Manne speculative coloring
+
+Homework assignments for ECE465 Cloud Computing
 
 Jonathan Lam & Henry Son
 
@@ -12,7 +14,10 @@ We chose to focus on the graph coloring problem.
 - [Project 1](./src/proj1/README.md): Graph coloring in a single-node,
   multithreaded environment
 - [Project 2](./src/proj2/README.md): Graph coloring in a multi-node,
-  multithreaded environment 
+  multithreaded environment (i.e., networked)
+
+Multithreading offered the expected speedup, but the communications cost
+for multithreaded environments was too high and caused major slowdowns.
 
 ---
 
